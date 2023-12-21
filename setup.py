@@ -47,8 +47,8 @@ elif sys.version_info[0] == 3:
 
 
 packages = [
-    'tencentcloud',
-    'tencentcloud.log',
+    'tx',
+    'tx.log',
 ]
 
 version = ''
