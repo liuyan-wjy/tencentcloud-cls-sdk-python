@@ -7,11 +7,11 @@ import six
 from copy import copy
 from itertools import cycle
 
-from tencentcloud.log.auth import signature
-from tencentcloud.log.logexception import LogException
-from tencentcloud.log.putlogsresponse import PutLogsResponse
-from tencentcloud.log.util import Util
-from tencentcloud.log.version import API_VERSION, USER_AGENT
+from tx.log.auth import signature
+from tx.log.logexception import LogException
+from tx.log.putlogsresponse import PutLogsResponse
+from tx.log.util import Util
+from tx.log.version import API_VERSION, USER_AGENT
 
 logger = logging.getLogger(__name__)
 

@@ -52,7 +52,7 @@ packages = [
 ]
 
 version = ''
-with open('tencentcloud/log/version.py', 'r') as fd:
+with open('tx/log/version.py', 'r') as fd:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]',
                         fd.read(), re.MULTILINE).group(1)
 
