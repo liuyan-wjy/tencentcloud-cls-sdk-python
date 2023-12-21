@@ -82,7 +82,7 @@ setup(
     version=version,
     description='TencentCloud cls log service Python client SDK',
     author='farmerx',
-    url='https://github.com/TencentCloud/tencentcloud-cls-sdk-python',
+    url='https://github.com/liuyan-wjy/tencentcloud-cls-sdk-python',
     install_requires=requirements,
     packages=packages,
     classifiers=classifiers,
