@@ -38,7 +38,10 @@ requirements_py2 = [
 
 requirements = []
 if sys.version_info[0] == 2:
-    requirements = requirements_py2
+    if sys.version_info[1] > 6:
+        requirements = requirements_py3
+    else:
+        requirements = requirements_py2
 elif sys.version_info[0] == 3:
     requirements = requirements_py3
 
